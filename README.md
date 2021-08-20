@@ -23,7 +23,7 @@ The next thing for me to set up on my Chainlink node was something called a brid
 
 With the bridge set up, the last thing to do was set up a job on the node to use this bridge in order to retrieve the temperature for a given city, so I set that up in a JSON format. I was then able to test it by creating an additional job that ran this job with the city I provided. I tested it using Raleigh, Los Angeles, and a string of random letters (to check if the error handling worked). They all passed and returned the correct data and responses.
 
-[![](https://drive.google.com/file/d/1_pPylBexSTpHPsmASuSh7Y1KSzNSy--3/view?usp=sharing)]()
+[![](https://i.imgur.com/FvSdej2.png)]()
 
 ## Smart Contract
 For the stretch requirement, I wanted to see if I could get the smart contract working. This was probably the most difficult part since I have never deployed on a smart contract before. However, after enough documentation and tinkering around with it, I was able to get my first smart contract deployed on the Ropsten testnet using the Remix online compiler and deployment tool.
