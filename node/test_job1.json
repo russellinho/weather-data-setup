@@ -1,0 +1,19 @@
+{
+    "name": "weather-data RALEIGH",
+    "initiators": [
+        {
+            "id": 2,
+            "jobSpecId": "82a33d3a-df21-4c0e-8af2-ffd10522219b",
+            "type": "web"
+        }
+    ],
+    "tasks": [
+        {
+            "jobSpecId": "82a33d3adf214c0e8af2ffd10522219b",
+            "type": "weather-data",
+            "params": {
+                "city": "Raleigh"
+            }
+        }
+    ]
+}

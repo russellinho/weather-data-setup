@@ -1,0 +1,19 @@
+{
+    "name": "weather-data TESTTEST",
+    "initiators": [
+        {
+            "id": 4,
+            "jobSpecId": "d9931d87-63ed-4377-8854-a852503af06c",
+            "type": "web"
+        }
+    ],
+    "tasks": [
+        {
+            "jobSpecId": "d9931d8763ed43778854a852503af06c",
+            "type": "weather-data",
+            "params": {
+                "city": "testtest"
+            }
+        }
+    ]
+}

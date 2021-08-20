@@ -1,0 +1,44 @@
+{
+    "name": "",
+    "initiators": [
+        {
+            "id": 1,
+            "jobSpecId": "c2173898-9cb3-4f3f-9168-4913213af300",
+            "type": "runlog",
+            "params": {
+                "address": "0x0000000000000000000000000000000000000000"
+            }
+        }
+    ],
+    "tasks": [
+        {
+            "jobSpecId": "c21738989cb34f3f91684913213af300",
+            "type": "weather-data"
+        },
+        {
+            "jobSpecId": "c21738989cb34f3f91684913213af300",
+            "type": "copy",
+            "params": {
+                "copyPath": [
+                    "details",
+                    "current"
+                ]
+            }
+        },
+        {
+            "jobSpecId": "c21738989cb34f3f91684913213af300",
+            "type": "multiply",
+            "params": {
+                "times": 100
+            }
+        },
+        {
+            "jobSpecId": "c21738989cb34f3f91684913213af300",
+            "type": "ethuint256"
+        },
+        {
+            "jobSpecId": "c21738989cb34f3f91684913213af300",
+            "type": "ethtx"
+        }
+    ]
+}

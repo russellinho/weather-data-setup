@@ -1,0 +1,19 @@
+{
+    "name": "weather-data LOS ANGELES",
+    "initiators": [
+        {
+            "id": 3,
+            "jobSpecId": "6f01e84b-dcd8-43fe-a517-4e3e441e7c85",
+            "type": "web"
+        }
+    ],
+    "tasks": [
+        {
+            "jobSpecId": "6f01e84bdcd843fea5174e3e441e7c85",
+            "type": "weather-data",
+            "params": {
+                "city": "Los Angeles"
+            }
+        }
+    ]
+}
