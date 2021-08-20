@@ -19,7 +19,7 @@ I then composed my Docker environment and made sure I could get to the dashboard
 
 The next thing for me to set up on my Chainlink node was something called a bridge. A bridge is what connects the job of a Chainlink node to the external adapter API endpoint. Setting that up was fairly straightforward.
 
-[![](https://drive.google.com/file/d/11LPjImSUrztyhKHqRAhTwjhvI8S8gAlM/view?usp=sharing)]()
+[![](https://i.imgur.com/wqJ0XYL.png)]()
 
 With the bridge set up, the last thing to do was set up a job on the node to use this bridge in order to retrieve the temperature for a given city, so I set that up in a JSON format. I was then able to test it by creating an additional job that ran this job with the city I provided. I tested it using Raleigh, Los Angeles, and a string of random letters (to check if the error handling worked). They all passed and returned the correct data and responses.
 
